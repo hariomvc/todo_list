@@ -27,12 +27,12 @@ class item{
 
     	var edit = document.createElement('button');
     	edit.classList.add('edit');
-    	edit.innerHTML = "EDIT";
+    	edit.innerHTML = "Edit";
     	edit.addEventListener('click', () => this.edit(input, name));
 
     	var remove = document.createElement('button');
     	remove.classList.add('remove');
-    	remove.innerHTML = "REMOVE";
+    	remove.innerHTML = "Remove";
     	remove.addEventListener('click', () => this.remove(itemBox, name));
 
     	container.appendChild(itemBox);
@@ -84,5 +84,12 @@ for (var v = 0 ; v < todos.length ; v++){
     new item(todos[v]);
 }
 
+function dark() {
+  document.body.style.backgroundColor = "#252a34";
+  document.body.style.color = "#eaeaea";
+}
 
-new item("sport");
+function light() {
+  document.body.style.backgroundColor = "#eaeaea";
+  document.body.style.color = "#252a34";
+}

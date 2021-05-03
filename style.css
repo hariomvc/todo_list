@@ -6,23 +6,17 @@
 
 body {
   height: 100%;
-  background-color: #111;
+  background-color: #eaeaea;
+  color: #252a34;
   box-sizing: border-box;
 }
 
 h1 {
-  color: #fff;
   font-size: 3rem;
   font-weight: 50;
   text-align: center;
   margin: 1rem 0 3rem;
   font-family: 'Space Mono', monospace;
-}
-
-.title {
-  color: lime;
-  text-transform: uppercase;
-  font-weight: 800;
 }
 
 .inputDiv {
@@ -50,7 +44,6 @@ h1 {
   border-radius: 25px;
   width: 50px;
   background-color: lime;
-  color: white;
   cursor: pointer;
   transition: .5s;
   margin: 0.25rem;
@@ -79,7 +72,6 @@ h1 {
   background: none;
   outline: none;
   border: none;
-  color: #fff;
   font-size: 1.4rem;
   width: 245px;
 }
